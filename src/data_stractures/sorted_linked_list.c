@@ -1,6 +1,6 @@
 #include <malloc.h>
 
-#include "data_stractures/sorted_linked_list.h"
+#include "sorted_linked_list.h"
 
 typedef SLL_Node Node;
 
@@ -83,7 +83,7 @@ SortedLinkedList* SLL_create() {
 	return (SortedLinkedList*)malloc(sizeof(SortedLinkedList));
 }
 
-void SSL_destroy(SortedLinkedList* list) {
+void SLL_destroy(SortedLinkedList* list) {
 	free(list);	
 }
 

@@ -3,6 +3,14 @@
 
 // this list is sorted such that the first item has the smallest key
 
+/*
+ * Useful snipped to iterate over a list:
+	SLL_Node* head;
+ 	for (head = list->head; head != NULL; head = head->next) {
+		// do something	
+	}
+*/
+
 typedef struct SLL_Node SLL_Node;
 
 struct SLL_Node {
